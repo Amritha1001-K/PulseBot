@@ -21,7 +21,7 @@ jobs:
       
       - run: python pulsebot.py
 
-      - name: Upload summary
+      - name: Upload summary as artifact
         uses: actions/upload-artifact@v4
         with:
           name: daily-summary
